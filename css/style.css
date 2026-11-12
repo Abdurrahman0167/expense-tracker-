@@ -25,6 +25,11 @@ html{
     --expense-text-color: #B84A4A;
 }
 
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
 .tracker__header{
     display: flex;
     align-items: center;
