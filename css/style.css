@@ -24,3 +24,19 @@ html{
     --income-text-color: #2E6F40;
     --expense-text-color: #B84A4A;
 }
+
+.tracker__header{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.tracker__logo{
+    width: 32px;
+    height: 32px;
+}
+
+.tracker__title{
+    font-size: var(--title-font-size);
+    font-family: var(--font-title);
+}
