@@ -21,8 +21,10 @@ html {
     --bg-surface: #F2F0EE;
     --text-color: #1E1E1E;
     --input-text-color: #7A7A7A;
-    --income-text-color: #2E6F40;
-    --expense-text-color: #B84A4A;
+    --color-income: #2E6F40;
+    --color-income-bg: #E3EFE6;
+    --color-expense: #B84A4A;
+    --color-expense-bg: #F8E6E6;
 }
 
 .container {
@@ -56,11 +58,11 @@ html {
     border-radius: 24px;
 }
 
-.balance__label{
+.balance__label {
     font-size: 1.8rem;
 }
 
-.balance__sum{
+.balance__sum {
     font-size: var(--balance-font-size);
     text-align: center;
 }
