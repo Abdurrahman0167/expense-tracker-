@@ -66,3 +66,105 @@ html {
     font-size: var(--balance-font-size);
     text-align: center;
 }
+
+
+.stat__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item {
+    display: flex;
+    gap: 1rem;
+}
+
+.stat-item__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--balance-font-size);
+}
+
+.stat-item__icon_dir_up {
+    background: var(--color-income-bg);
+    color: var(--color-income);
+
+}
+
+.stat-item__icon_dir_down {
+    background: var(--color-expense-bg);
+    color: var(--color-expense);
+}
+
+.stat-item__label {
+    font-size: var(--main-font-size);
+    opacity: 0.7;
+}
+
+input {
+    border: none;
+}
+
+input,
+select,
+button:focus {
+    outline: none;
+}
+
+.transition-container_flex {
+    display: flex;
+    gap: 2rem;
+}
+
+.transition-container__summ,
+.transition-container__name {
+    padding: 1.6rem 0 1.6rem 1rem;
+    border: 1px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: var(--main-radius);
+    gap: 15px;
+}
+
+.transition-container__name{
+    min-width: 380px;
+}
+
+.transaction-img {
+    width: 16px;
+    height: 16px;
+}
+
+.transition-container__summ {
+    flex: 1 1 300px;
+}
+
+.transition-rub {
+    margin: 0;
+}
+
+.transition-form__select {
+    flex: 1 0 50px;
+    width: 100%;
+    max-width: 30%;
+    min-width: 80px;
+    border-radius: var(--main-radius);
+}
+
+.transition-form__submit {
+    flex: 0 0 50px;
+    border-radius: var(--main-radius);
+    background: var(--text-color);
+    font-size: 2rem;
+    border: none;
+}
+
+.sumbmit-text {
+    line-height: 0;
+    color: var(--bg-main);
+    cursor: pointer;
+}
