@@ -87,7 +87,7 @@ html {
 
 .stat-item {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .stat-item__icon {
