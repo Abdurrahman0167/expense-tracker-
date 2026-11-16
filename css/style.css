@@ -72,8 +72,17 @@ html {
 
 .stat__flex {
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
     margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--bg-surface);
+}
+.line{
+    width: 2px;
+    height: 64px;
+    background: var(--bg-surface);
 }
 
 .stat-item {
