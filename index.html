@@ -42,16 +42,21 @@
     
                         <form action="#" class="transaction-form">
                            <div class=" transition-container transition-container__name">
-                            <img class="transaction-img" src="img/wallet.svg" alt="">
-                             <input class="transition-form__name" type="text" placeholder="название опирации">
+                            <label>
+                                    <img class="transaction-img" src="img/wallet.svg" alt="">
+                                <input class="transition-form__name" type="text" placeholder="название опирации">
+                            </label>
+                             
                             </div>
                             <div class="transition-container transition-container_flex">
 
                                <div class="transition-container__summ">  
-                                <p class="transition-rub">₽ </p>
-                                 <input class="transition-form__summ" type="text" name="" id="" placeholder="сумма">
+                                <label class="transition-rub">
+                                    ₽ 
+                                    <input class="transition-form__summ" type="number"placeholder="сумма">
+                                </label>
                                 </div>
-                                <select class="transition-form__select" name="" id="">
+                                <select class="transition-form__select">
                             </div>
                                 <option value="">⇄ Доход</option>
                                 <option value="">⇄ Расход</option>
