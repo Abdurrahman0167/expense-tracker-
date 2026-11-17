@@ -156,6 +156,7 @@ label{
 .transaction-form {
     margin-bottom: 25px;
     border-bottom: 2px solid var(--bg-surface);
+    padding-bottom: 25px;
 }
 
 .transition-container__name {
