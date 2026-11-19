@@ -1,6 +1,6 @@
 "use strict";
 
-const inpputName = document.querySelector(".transition-form__name");
+const inputName = document.querySelector(".transition-form__name");
 const inputSumm = document.querySelector(".transition-form__summ");
 const select = document.querySelector(".transition-form__select");
 const button = document.querySelector(".transition-form__submit");
@@ -17,3 +17,4 @@ function renderSumm(actualSumm) {
 }
 
 renderSumm(actualSumm);
+
