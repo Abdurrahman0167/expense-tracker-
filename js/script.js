@@ -10,3 +10,10 @@ const actualSumm = 0;
 const histyryArr = [];
 const transactionsArr = [];
 
+function renderSum(actualSumm){
+  let sum = document.createElement('p')
+  sum.textContent = actualSumm +'₽'
+  summBox.append(sum)
+}
+
+renderSum(actualSumm)
