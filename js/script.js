@@ -7,7 +7,6 @@ const button = document.querySelector(".transition-form__submit");
 const summBox = document.querySelector(".balance");
 const historyBox = document.querySelector(".history");
 const actualSumm = 0;
-const histyryArr = [];
 const transactionsArr = [];
 
 function renderSumm(actualSumm) {
