@@ -18,3 +18,26 @@ function renderSumm(actualSumm) {
 
 renderSumm(actualSumm);
 
+function createTransaction(inputName, inputSumm) {
+  let name = inputName.value.trim();
+  let amount = Number(inputSumm.value);
+  let transaction = {
+    name: name,
+    summ: amount,
+    transactionType: select.value,
+  };
+
+  if (transaction.name == "" || transaction.name == 0 && transaction.summ == ''  || transaction.summ == 0) {
+    alert("Кажется, вы забыли написать название или сумму");
+    return
+  }
+
+  transactionsArr.push(transaction);
+
+  inputName.value = ''
+  inputSumm.value = ''
+}
+
+button.addEventListener("click", () => {
+  createTransaction(inputName, inputSumm);
+});
